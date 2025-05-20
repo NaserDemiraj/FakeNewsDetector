@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: fake-news-detector
+    env: dotnet
+    plan: free
+    buildCommand: dotnet publish -c Release -o out
+    startCommand: dotnet out/FakeNewsDetector.dll
+    envVars:
+      - key: PORT
+        value: 8080
+    autoDeploy: true
