@@ -1,0 +1,13 @@
+# .NET Project Dependencies
+Microsoft.AspNetCore.OpenApi=7.0.9
+Microsoft.AspNetCore.SpaServices.Extensions=7.0.9
+Swashbuckle.AspNetCore=6.5.0
+HtmlAgilityPack=1.11.54
+
+# Development Tools
+Microsoft.EntityFrameworkCore.Design=7.0.9
+Microsoft.EntityFrameworkCore.SqlServer=7.0.9
+
+# Runtime Requirements
+.NET SDK=7.0
+ASP.NET Core Runtime=7.0
